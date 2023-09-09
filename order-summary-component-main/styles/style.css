@@ -4,10 +4,15 @@ body {
   background-size: cover;
   background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg)
+  }
 }
 
 .order-summary-card {
@@ -81,8 +86,14 @@ body {
   color: hsl(224, 23%, 55%);
 }
 
-.change-link {
+.change-link a {
   color: hsl(245, 75%, 52%);
+  font-size: 14px;
+}
+
+.change-link:hover a {
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .order-button {
@@ -105,6 +116,11 @@ body {
   border-radius: 10px;
   border-style: none;
   box-shadow: 0px 8px 22px 0px rgba(50,14,158,0.3);
+  cursor: pointer;
+}
+
+.order-button:hover button {
+  opacity: 0.7;
 }
 
 .cancel-button-container {
@@ -115,15 +131,16 @@ body {
 
 .cancel-button-container a {
   color: hsl(224, 23%, 55%);
+  font-size: 15px;
   font-weight: bold;
   text-decoration: none;
 }
 
-footer {
-  position: relative;
+.cancel-button-container:hover a {
+  color: hsl(223, 47%, 23%);
 }
 
-footer .attribution {
+.attribution {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
