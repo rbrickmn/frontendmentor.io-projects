@@ -1,8 +1,3 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 body {
   background-color: hsl(217, 54%, 11%);
   font-family: Outfit;
@@ -15,8 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-style: solid;
   border-radius: 20px;
+  background-color:hsl(216, 50%, 16%);
+  padding: 10px;
 }
 
 .nft-card-wrapper {
@@ -33,6 +29,17 @@ body {
 
 .nft-preview-container img {
   height: 300px;
-  margin: 0 auto;
+  border-radius: 10px;
 }
 
+.nft-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nft-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
