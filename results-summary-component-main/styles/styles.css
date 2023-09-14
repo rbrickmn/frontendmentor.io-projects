@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.result-right-side {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: red;
+}
+
+.result-left-side {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.result-reaction {
+  display: flex;
+}
+
+.result-memory {
+  display: flex;
+}
+
+.result-verbal {
+  display: flex;
+}
+
+.result-visual {
+  display: flex;
+}
