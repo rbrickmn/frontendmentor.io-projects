@@ -1,4 +1,5 @@
 body {
+  font-family: "Hanken Grotesk";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +24,7 @@ body {
   border-style: solid;
   border-radius: 20px;
   border-color: red;
+  margin-right: 30px;
 }
 
 .result-left-side {
