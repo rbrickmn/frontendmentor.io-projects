@@ -5,7 +5,7 @@ const rateAgain = document.getElementById("rate-again");
 const rating = document.getElementById("rating");
 const rates = document.querySelectorAll(".btn");
 
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", (rate) => {
   thanksContainer.classList.remove("hidden");
   mainContainer.style.display = "none";
 });

@@ -35,6 +35,7 @@ p {
   background-color: hsl(213, 19%, 18%);
   padding: 1.5rem;
   border-radius: 0.625rem;
+  max-width: 400px;
 }
 
 .main-container img {
@@ -74,11 +75,11 @@ p {
 }
 
 .main-container ul li button:hover {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 12%, 63%);
 }
 
 .main-container ul li button:focus {
-  background-color: hsl(217, 12%, 63%);
+  background-color: hsl(25, 97%, 53%);
 }
 
 .btn-submit {
